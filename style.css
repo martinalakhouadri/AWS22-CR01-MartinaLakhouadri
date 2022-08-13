@@ -1,15 +1,4 @@
-/*------------------------general----------------------------*/
-body{
-	background-color: black;
-	color: white;
-}
-
 /*----------------------navigation bar------------------------*/
-nav{
-	background-color: black;
-	color: white;
-}
-
 .codefactorylogotop{ 
 	margin: 150px;
 	padding-top: 10px;
@@ -129,11 +118,6 @@ h4{
 }
 
 /*------------------------Footer----------------------------*/
-footer{
-	background-color: black;
-	color: white;
-}
-
 #codefactorylogobottom{
   	display: block;
   	margin-left: 17cm;
