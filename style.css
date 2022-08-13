@@ -1,10 +1,10 @@
-------------------------/*general*/----------------------------
+/*------------------------general----------------------------*/
 body{
 	background-color: black;
 	color: white;
 }
 
-----------------------/*navigation bar*/------------------------
+/*----------------------navigation bar------------------------*/
 nav{
 	background-color: black;
 	color: white;
@@ -16,10 +16,12 @@ nav{
 	padding-left: 10px;
 	transform: translate(-100px,-100px);
 }
+
 #searchbar{
 	width: 600px;
 	height: 20px;
 }
+
 #searchbarloginsignup{
 	margin-right: 40px;
 	margin-left: 700px;
@@ -37,8 +39,6 @@ nav{
   	color: white;
   	padding: 3px;
 }
-
-
 
 #keyboard{
 	align-content: center;
@@ -58,11 +58,17 @@ nav{
       font-family: sans-serif;
       transform:translate(250px,0px);
 }
----------------------/*Course Technologies*/-------------------
-li.languages{
+
+/*---------------------main part------------------------------*/
+.languages{
 	list-style-type: none;
-	text-align: left;
+	text-align: center;
 	font-family: sans-serif;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin bottom: 10px;
 }
 
 hr {
@@ -112,9 +118,9 @@ h4{
   	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	align-self: center;
 	align-content: space-around;
-	/*padding: 5px;*/
-	background-color: dodgerblue;
+	background-color: steelblue;
 	color: white;
 	border-radius: 10px;
 	text-align: center;
@@ -122,7 +128,7 @@ h4{
 	column-gap: 50px;
 }
 
-------------------------/*Footer*/----------------------------
+/*------------------------Footer----------------------------*/
 footer{
 	background-color: black;
 	color: white;
