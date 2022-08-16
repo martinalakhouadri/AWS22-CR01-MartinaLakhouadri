@@ -1,5 +1,11 @@
+/*---------------------general--------------------------------*/
+body{
+	background-color: black;
+}
+
 /*----------------------navigation bar------------------------*/
 .codefactorylogotop{ 
+	position: relative;
 	margin: 150px;
 	padding-top: 10px;
 	padding-left: 10px;
@@ -13,20 +19,21 @@
 
 #searchbarloginsignup{
 	margin-right: 40px;
-	margin-left: 700px;
+	margin-left: 600px;
 	margin-top: 0px;
 	margin-bottom: 40px;
-	padding: 0px;
+	padding: 10px;
 	transform: translate(10px,-50px);
 }
 
 .loginsignup{
+	font-size: 12pt;
 	text-decoration: none;
-	margin: 10px;
+	margin: 20px;
 	border-radius: 10px;
   	background: darkred;
   	color: white;
-  	padding: 3px;
+  	padding: 10px;
 }
 
 #keyboard{
@@ -50,7 +57,7 @@
 
 /*---------------------main part------------------------------*/
 .languages{
-	list-style-type: none;
+	list-style: none;
 	text-align: center;
 	font-family: sans-serif;
 	justify-content: center;
